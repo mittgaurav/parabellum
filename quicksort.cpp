@@ -63,6 +63,6 @@ int main()
 {
     int array[] = {4,6,7,5,3,1,2,8};
     print(array,0,7);
-    mergesort(array,0,7);
+    quicksort(array,0,7);
     print(array,0,7);
 }
