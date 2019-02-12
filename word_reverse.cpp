@@ -10,7 +10,7 @@ void reverse(char* string, size_t i, size_t j) {
     }
 }
 int main() {
-    char string[] = "  i l  ike to   code";
+    char string[] = "  i like to   code   ";
     std::cout << string << std::endl;
   
     reverse(string, 0, strlen(string) - 1);
